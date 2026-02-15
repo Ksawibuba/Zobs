@@ -20,6 +20,12 @@
            remote="crdroid-github"
            revision="16.0" />
 
+<!-- Hardware -->
+<project path="hardware/oplus"
+         name="android_hardware_oplus"
+         remote="crdroid-github"
+         revision="16.0" />
+
   <!-- Kernel -->
   <project path="kernel/oneplus/sm8650"
            name="android_kernel_oneplus_sm8650"
