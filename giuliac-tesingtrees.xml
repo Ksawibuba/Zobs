@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub remote -->
+  <remote name="ace-github"
+          fetch="https://github.com/Ace-5-Testing" />
+
+  <!-- Device -->
+  <project path="device/oneplus/giuliac"
+           name="device_oneplus_giuliac"
+           remote="ace-github"
+           revision="main" />
+
+  <project path="device/oneplus/sm8650-common"
+           name="device_oneplus_sm8650-common"
+           remote="ace-github"
+           revision="main" />
+
+  <!-- Hardware -->
+  <project path="hardware/oplus"
+           name="hardware_oplus"
+           remote="ace-github"
+           revision="main" />
+
+  <!-- Kernel -->
+  <project path="kernel/oneplus/sm8650"
+           name="kernel_oneplus_sm8650"
+           remote="ace-github"
+           revision="main" />
+
+  <project path="kernel/oneplus/sm8650-devicetrees"
+           name="kernel_oneplus_sm8650-devicetrees"
+           remote="ace-github"
+           revision="main" />
+
+  <project path="kernel/oneplus/sm8650-modules"
+           name="kernel_oneplus_sm8650-modules"
+           remote="ace-github"
+           revision="main" />
+
+  <!-- Vendor -->
+  <project path="vendor/oneplus/giuliac"
+           name="vendor_oneplus_giuliac"
+           remote="ace-github"
+           revision="main" />
+
+  <project path="vendor/oneplus/sm8650-common"
+           name="vendor_oneplus_sm8650-common"
+           remote="ace-github"
+           revision="main" />
+
+  <project path="vendor/oneplus/dolby"
+           name="vendor_oneplus_dolby"
+           remote="ace-github"
+           revision="main" />
+
+  <project path="vendor/oneplus/ir"
+           name="vendor_oneplus_ir"
+           remote="ace-github"
+           revision="main" />
+
+</manifest>
