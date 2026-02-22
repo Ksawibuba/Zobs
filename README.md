@@ -1,7 +1,12 @@
-Mihal zobas uzyj tego kurwo
+### vac zops
 
+```
+cd ~/Zobs
+bash ./do_zops.sh
+```
 
-mkdir .repo/local_manifests && wget https://raw.githubusercontent.com/Ksawibuba/Zobs/refs/heads/main/giuliac.xml -O .repo/local_manifests/giuliac.xml 
+now just
 
-
-a potem resync
+```
+resync
+```
