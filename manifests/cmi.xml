@@ -21,7 +21,7 @@
   <project path="kernel/xiaomi/sm8250"
            name="jhchong94/android_kernel_xiaomi_sm8250_los"
            remote="lineage-github"
-           revision="sixteen-qpr2" />
+           revision="lineage-23.0" />
 
   <project path="vendor/xiaomi/cmi"
            name="TheMuppets/proprietary_vendor_xiaomi_cmi"
