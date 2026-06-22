@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage-github" fetch="https://github.com" />
+
+  <!-- Device-specific: POCO F3 (alioth) -->
+  <project path="device/xiaomi/alioth"
+           name="LineageOS/android_device_xiaomi_alioth"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+
+  <!-- Wspólne dla rodziny SM8250 -->
+  <project path="device/xiaomi/sm8250-common"
+           name="LineageOS/android_device_xiaomi_sm8250-common"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+
+  <!-- HAL Xiaomi -->
+  <project path="hardware/xiaomi"
+           name="LineageOS/android_hardware_xiaomi"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+
+  <!-- Oficjalny kernel LineageOS dla SM8250, gałąź lineage-23.2 -->
+  <project path="kernel/xiaomi/sm8250"
+           name="LineageOS/android_kernel_xiaomi_sm8250"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+
+  <!-- Vendor blobs: POCO F3 (alioth) -->
+  <project path="vendor/xiaomi/alioth"
+           name="TheMuppets/proprietary_vendor_xiaomi_alioth"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+
+  <!-- Vendor SM8250 common -->
+  <project path="vendor/xiaomi/sm8250-common"
+           name="TheMuppets/proprietary_vendor_xiaomi_sm8250-common"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+</manifest>
