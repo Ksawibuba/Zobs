@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage-github" fetch="https://github.com" />
+  <!-- Device-specific: Xiaomi Mi 11 (venus) -->
+  <project path="device/xiaomi/venus"
+           name="LineageOS/android_device_xiaomi_venus"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+  <!-- Wspólne dla rodziny SM8350 -->
+  <project path="device/xiaomi/sm8350-common"
+           name="LineageOS/android_device_xiaomi_sm8350-common"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+  <!-- Oficjalny kernel LineageOS dla SM8350, gałąź lineage-23.2 -->
+  <project path="kernel/xiaomi/sm8350"
+           name="LineageOS/android_kernel_xiaomi_sm8350"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+  <!-- Vendor blobs: Xiaomi Mi 11 (venus) -->
+  <project path="vendor/xiaomi/venus"
+           name="TheMuppets/proprietary_vendor_xiaomi_venus"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+  <!-- Vendor SM8350 common -->
+  <project path="vendor/xiaomi/sm8350-common"
+           name="TheMuppets/proprietary_vendor_xiaomi_sm8350-common"
+           remote="lineage-github"
+           revision="lineage-23.2" />
+</manifest>
