@@ -8,7 +8,7 @@
   <project path="hardware/xiaomi" name="Ksawibuba/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
 
   <!-- Sync common trees -->
-  <project path="device/xiaomi/sm8635-common" name="android_device_xiaomi_sm8635-common" remote="micliff-dev" />
+  <project path="device/xiaomi/sm8635-common" name="Thanick50/android_device_xiaomi_sm8635-common" />
   <project path="vendor/xiaomi/sm8635-common" name="android_vendor_xiaomi_sm8635-common" remote="micliff-dev" />
 
   <!-- Sync muyu trees -->
