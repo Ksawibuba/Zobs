@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@github.com/Xiaomi-Pad-7-Pro-Resources"
+          name="micliff-dev"
+          revision="lineage-23.2" />
+
+  <!-- Sync required hals -->
+  <project path="packages/apps/DolbyAtmos" name="roms-experimental/android_packages_apps_DolbyAtmos" remote="github" revision="lineage-23.2" />
+  <project path="hardware/xiaomi" name="roms-experimental/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
+
+  <!-- Sync common trees -->
+  <project path="device/xiaomi/sm8635-common" name="android_device_xiaomi_sm8635-common" remote="micliff-dev" />
+  <project path="vendor/xiaomi/sm8635-common" name="android_vendor_xiaomi_sm8635-common" remote="micliff-dev" />
+
+  <!-- Sync muyu trees -->
+  <project path="device/xiaomi/muyu" name="android_device_xiaomi_muyu" remote="micliff-dev" />
+  <project path="device/xiaomi/muyu-kernel" name="android_device_xiaomi_muyu-kernel" remote="micliff-dev" />
+  <project path="vendor/xiaomi/muyu" name="android_vendor_xiaomi_muyu" remote="micliff-dev" />
+</manifest>
