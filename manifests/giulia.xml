@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Codeberg Remote -->
+  <remote name="codeberg-2"
+          fetch="https://codeberg.org/" />
+
+  <!-- Removed projects -->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
+
+  <!-- Device trees -->
+  <project name="aosp-for-giulia/android_device_oneplus_giulia" path="device/oneplus/giulia" revision="derp-16.2" remote="github" />
+  <project name="aosp-for-giulia/android_device_oneplus_giuliac" path="device/oneplus/giuliac" revision="derp-16.2" remote="github" />
+  <project name="aosp-for-giulia/android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" revision="derp-16.2" remote="github" />
+
+  <!-- Vendor trees -->
+  <project name="0mar99/proprietary_vendor_oneplus_giulia" path="vendor/oneplus/giulia" revision="lineage-23.2" remote="codeberg-2" />
+  <project name="0mar99/proprietary_vendor_oneplus_giuliac" path="vendor/oneplus/giuliac" revision="lineage-23.2" remote="codeberg-2" />
+  <project name="aosp-for-giulia/proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" revision="16.2" remote="github" />
+
+  <!-- Kernel -->
+  <project name="aosp-for-giulia/android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" revision="lineage-23.2" remote="github" />
+  <project name="aosp-for-giulia/android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" revision="lineage-23.2" remote="github" />
+  <project name="aosp-for-giulia/android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" revision="16.2" remote="github" />
+
+  <!-- Hardware sources -->
+  <project name="aosp-for-giulia/android_hardware_oplus" path="hardware/oplus" revision="derp-16.2" remote="github" />
+  <!-- Extras -->
+  <project name="aosp-for-giulia/hardware_dolby" path="hardware/dolby" revision="16" remote="github" />
+  <project name="aosp-for-giulia/vendor_oneplus_ir" path="vendor/oneplus/ir" revision="16" remote="github" />
+  <project name="kenway214/packages_apps_GameBar" path="packages/apps/GameBar" revision="lineage-23.2" remote="github" />
+  <project name="aosp-for-giulia/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="A16" remote="github" />
+
+</manifest>
