@@ -22,11 +22,7 @@
            remote="lineage-github"
            revision="lineage-23.2" />
   <!-- Kod sprzętowy specyficzny dla OnePlus -->
-  <project path="hardware/oneplus"
-           name="LineageOS/android_hardware_oneplus"
-           remote="lineage-github"
-           revision="lineage-23.2" />
-  <!-- Vendor blobs: OnePlus 9 Pro (lemonadep) -->
+    <!-- Vendor blobs: OnePlus 9 Pro (lemonadep) -->
   <project path="vendor/oneplus/lemonadep"
            name="TheMuppets/proprietary_vendor_oneplus_lemonadep"
            remote="lineage-github"
